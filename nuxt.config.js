@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import colors from 'vuetify/es5/util/colors'
 
 export default {
@@ -5,6 +6,12 @@ export default {
   head: {
     titleTemplate: '%s - learning-log',
     title: 'learning-log',
+=======
+export default {
+  // Global page headers: https://go.nuxtjs.dev/config-head
+  head: {
+    title: 'learninglog',
+>>>>>>> origin/master
     htmlAttrs: {
       lang: 'en'
     },
@@ -32,14 +39,18 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+<<<<<<< HEAD
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+=======
+>>>>>>> origin/master
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
 
+<<<<<<< HEAD
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
@@ -59,6 +70,8 @@ export default {
     }
   },
 
+=======
+>>>>>>> origin/master
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }

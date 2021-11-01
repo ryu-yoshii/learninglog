@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # learning-log
+=======
+# learninglog
+>>>>>>> origin/master
 
 ## Build Setup
 

@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-container>
     <v-card>
       <v-card-title class="font-weight-bold">タイトル</v-card-title>
@@ -21,3 +22,14 @@ export default {
 <style lang="scss">
   
 </style>
+=======
+<div>
+テスト2
+</div>
+
+</template>
+
+<script>
+export default {}
+</script>
+>>>>>>> origin/master
