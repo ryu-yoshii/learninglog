@@ -4,7 +4,7 @@
       <v-card-title class="font-weight-bold">タイトル</v-card-title>
       <v-card-text>
         テキストテキストテキスト <br>
-        テキストテキストテキスト
+        ぱぱぱあぱぱ
       </v-card-text>
       <v-divider></v-divider>
       <v-card-actions>
