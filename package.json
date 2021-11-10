@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "learning-log",
-=======
-  "name": "learninglog",
->>>>>>> origin/master
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,16 +10,10 @@
   },
   "dependencies": {
     "core-js": "^3.15.1",
-<<<<<<< HEAD
     "nuxt": "^2.15.7",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.1"
   }
-=======
-    "nuxt": "^2.15.7"
-  },
-  "devDependencies": {}
->>>>>>> origin/master
 }
