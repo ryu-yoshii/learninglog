@@ -1,8 +1,12 @@
-<template lang="">
-    <div>
-        
+<template lang="ja">
+<div>
+    <div id="wrapper">
+        <div id="login-btn-box">
+            <p href="" id="login-btn" class="btn--radius">ログイン</p>
+        </div>
     </div>
-</template>
+</div>
+</template> 
 <script>
 export default {
     

@@ -1,0 +1,71 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #171717;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#title {
+  font-weight: lighter;
+  color: green;
+  font-size: 6rem;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+#common-bg {
+  height: 100vh;
+  background-image: url(../img/22267524_l.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#login-btn-box {
+  text-align: center;
+  margin-top: 25%;
+}
+
+#login-btn {
+  color: #fff;
+  background-color: #eb6100;
+  text-decoration: none;
+  width: 300px;
+}
+
+#login-btn:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+.btn--radius {
+  border-radius: 100vh;
+}
+/*# sourceMappingURL=variables.css.map */
