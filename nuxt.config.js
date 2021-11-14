@@ -32,8 +32,14 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/vuetify
-    ,
+    [
+      '@nuxtjs/google-fonts',
+        {
+          'Anton, sans-serif':true,
+          'Estonia, cursive':true,
+          'Roboto, sans-serif':true,
+        }
+    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

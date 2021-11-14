@@ -1,7 +1,7 @@
 <template lang="ja">
   <div id="common-bg">
     <h1 id="title">
-      学習日記（仮）
+    Learning  records
     </h1>
     <nuxt />
   </div>

@@ -1,10 +1,11 @@
 <template lang="ja">
 <div>
     <div id="wrapper">
-        <div id="login-btn-box">
-            <p href="" id="login-btn" class="btn--radius">ログイン</p>
-        </div>
-    </div>
+        <ul id="login-btn-box">
+            <li id="login-btn"><a href="">Login</a></li>
+            <li id="login-btn"><a href="">sign up</a></li>
+        </ul>
+    </div>  
 </div>
 </template> 
 <script>
