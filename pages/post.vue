@@ -12,10 +12,37 @@
                 <p style="white-space: pre-line;">{{ message }}</p>
                 <textarea v-model="message" placeholder="ここに記入"></textarea>
             </div>
-            <div class="study-hours">
-                <h3 class="study-hours-title">学習時間</h3>
-                <p style="white-space: pre-line;">{{ message }}</p>
-                <textarea v-model="message" placeholder="ここに記入"></textarea>
+            <div class="result-box">
+                <div class="study-hours">
+                    <h3 class="study-hours-title">学習時間</h3>
+                        <select name="hours">
+                            <option value="1">1時間</option>
+                            <option value="2">2時間</option>
+                            <option value="3">3時間</option>
+                            <option value="4">4時間</option>
+                            <option value="5">5時間</option>
+                            <option value="6">6時間</option>
+                            <option value="7">7時間</option>
+                            <option value="8">8時間</option>
+                            <option value="9">9時間</option>
+                            <option value="10">10時間</option>
+                            <option value="11">11時間</option>
+                            <option value="12">12時間</option>
+                        </select>
+                </div>
+                    <button class="post-btn">投稿する</button>
+                    <button class="tweet-btn">ツイートする</button>
+            </div>
+        </section>
+        <section class="past">
+            <h2 class="past-title">過去の投稿</h2>
+            <div class="log">
+                <div class="date">11/15</div>
+                <div class="past-comment">今日は第１章までやった</div>
+                <div class="past-hours">
+                    <h3>学習時間</h3>
+                    <p>6時間</p>
+                </div>
             </div>
         </section>
         

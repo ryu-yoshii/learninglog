@@ -56,8 +56,10 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
+  display: block;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #wrapper {
@@ -114,6 +116,7 @@ img {
   width: 100%;
   height: 100vh;
   padding-top: 20%;
+  position: absolute;
 }
 
 .result {
@@ -140,5 +143,65 @@ img {
 
 .study-hours {
   text-align: left;
+}
+
+.study-hours-title {
+  font-size: 1.5rem;
+  font-weight: 10;
+  margin: 0;
+}
+
+.result-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.past {
+  background-color: #fff;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 1%;
+}
+
+.log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.past-hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.past-hours h3 {
+  font-size: 1.5rem;
+  font-weight: 10;
+}
+
+.past-hours p {
+  margin: 10px;
 }
 /*# sourceMappingURL=variables.css.map */

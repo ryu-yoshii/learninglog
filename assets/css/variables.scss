@@ -60,10 +60,10 @@ img{
         left: 0;
         right: 0;
         bottom: 0;
-        // display: block;
+        display: block;
         width: 100%;
         height: 100%;
-        // background-color: rgba(0,0,0, 0.4);
+        background-color: rgba(0,0,0, 0.4);
         // filter:blur(10px);
     }
 }
@@ -117,6 +117,8 @@ img{
     width: 100%;
     height: 100vh;
     padding-top: 20%;
+    position: absolute;
+    // top: 3rem;
 }
 .result{
     background-color: #fff;
@@ -139,4 +141,42 @@ img{
 }
 .study-hours{
     text-align: left;
+}
+.study-hours-title{
+    font-size: 1.5rem;
+    font-weight: 10;
+    margin: 0;
+}
+.result-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+//------------------------------------------------//
+//投稿画面（過去の投稿）
+//------------------------------------------------//
+.past{
+    background-color: #fff;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 1%;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.past-hours{
+    h3{
+        font-size: 1.5rem;
+        font-weight: 10;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        margin: 10px;
+    }
 }
