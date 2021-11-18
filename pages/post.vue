@@ -1,4 +1,5 @@
 <template lang="ja">
+<div>
     <div id="post-wrapper">
         <section class="result">
             <h2 class="result-title">学習の成果</h2>
@@ -36,17 +37,82 @@
         </section>
         <section class="past">
             <h2 class="past-title">過去の投稿</h2>
-            <div class="log">
-                <div class="date">11/15</div>
-                <div class="past-comment">今日は第１章までやった</div>
-                <div class="past-hours">
-                    <h3>学習時間</h3>
-                    <p>6時間</p>
-                </div>
-            </div>
+            <ul class="log-list">
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="log">
+                        <p class="date">11/15</p>
+                        <p class="past-comment">今日は第一章までやった</p>
+                        <div class="past-hours">
+                            <h3 class="hours-title">学習時間</h3>
+                            <p>6時間</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </section>
         
     </div>
+</div>
 </template>
 <script>
 export default {

@@ -1,6 +1,6 @@
 <template lang="ja">
 <div>
-    <div id="wrapper">
+    <div id="login-wrapper">
         <ul id="login-btn-box">
             <li id="login-btn"><a href="">Login</a></li>
             <li id="login-btn"><a href="">sign up</a></li>
